@@ -1,8 +1,76 @@
 p {
-  color: var(--Text-secondary, #000);
+  color: var(--Text-main, #515050);
   font-family: "Bubbler One";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+h1 {
+  color: var(--Text-secondary, #000);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h2 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.box-title {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+h3 {
+  color: var(--Text-main, #515050);
+  font-family: "Caesar Dressing";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.p-box {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-weight: 400;
+}
+.lien {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: 17.5%; /* 3.5px */
+  text-underline-position: from-font;
+}
+
+.titre-dieux {
+  color: var(--Text-main, #515050);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.little {
+  color: var(--Text-main, #515050);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-weight: 400;
 }
