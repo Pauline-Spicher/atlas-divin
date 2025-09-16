@@ -1,0 +1,54 @@
+.footer {
+  display: flex;
+  padding: 40px 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  align-self: stretch;
+  background: var(--Background-components, #bcbfc3);
+  height: 203px;
+}
+
+.border {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  border-top: 1px solid var(--Text-secondary, #000);
+  max-width: 1280px;
+  position: relative;
+  top: -33px;
+}
+
+.crédits {
+  color: var(--Text-secondary, #000);
+  font-family: "Bubbler One";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  align-items: center;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+  top: -20px;
+
+  /*.icones {
+    display: flex; /* met les images côte à côte 
+    justify-content: flex-end;  les aligne à droite 
+    gap: 10px;
+    align-items: center; */
+}
+
+.crédits {
+  position: relative;
+  top: -85px;
+  text-align: center;
+}

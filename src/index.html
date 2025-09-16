@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,100 +18,189 @@
     />
   </head>
   <body>
-    <div class="header">
-      <h1>ATLAS DIVIN</h1>
-      <p>Mes favoris</p>
-      <p>Dieu du jour</p>
-      <p>Dieux populaires</p>
-      <img src="/src/moon.svg" />
-      <!-- PENSER A METTRE L'IMAGE CORRECTEMENT-->
-    </div>
-
-    <h2>Voir les dieux des panthéons</h2>
-    <div class="box">
-      <p class="box-title">Dieu du jour</p>
-      <h3>Bacchus</h3>
-      <p class="p-box">
-        Dieu romain du vin
-        <br />
-        Egalement Dieu de l'ivresse, des débordements, de la nature et des
-        festivités.
-        <br />
-        Bacchus est un dieu romain correspondant à Dionysos dans la mythologie
-        grecque. Les Romains utilisaient Bacchus comme <br />un autre nom de
-        Liber Pater, un dieu latin de la fécondité.
-      </p>
-      <br />
-      <p class="lien">
-        En savoir plus
-        <img src="/src/arrow-narrow-right.svg" />
-      </p>
-    </div>
-
-    <div class="dieux">
-      <p class="titre-dieux">Panthéons populaires</p>
-
-      <div class="color-box">
-        <div class="blue-box">Panthéon grec</div>
-        <div class="yellow-box">Panthéon égyptien</div>
-        <div class="green-box">Panthéon nordique</div>
-        <div class="red-box">Panthéon romain</div>
+    <div class="row">
+      <div class="header">
+        <h1>ATLAS DIVIN</h1>
+        <p class="p-header">Mes favoris</p>
+        <p class="p-header">Dieu du jour</p>
+        <p class="p-header">Dieux populaires</p>
+        <img src="/src/moon.svg" />
+        <!-- PENSER A METTRE L'IMAGE CORRECTEMENT-->
       </div>
 
-      <div class="images">
-        <div class="Athéna">
-          <img src="images/Frame 1.png" />
-          <p>Panthéon grec</p>
-          <p class="little">Déesse de la guerre</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-9">
+            <h2>Voir les dieux des panthéons</h2>
+          </div>
+          <div class="col-3"></div>
+          <div class="col-9">
+            <div class="box">
+              <p class="box-title">Dieu du jour</p>
+              <h3>Bacchus</h3>
+             <p>
+                Dieu romain du vin
+                <br />
+                <br />
+                Egalement Dieu de l'ivresse, des débordements, de la nature et
+                des festivités. <br>Bacchus est un dieu romain correspondant à
+                Dionysos dans la mythologie grecque. Les Romains utilisaient
+                Bacchus comme un autre nom de Liber Pater, un dieu latin de la
+                fécondité.
+                <p class="lien">En savoir plus
+                  <img src="/src/arrow-narrow-right.svg" />
+                </p>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dieux">
+        <div class="row">
+          <div class="col-3">
+            <p class="titre-dieux">Panthéons populaires</p>
+            <div class="color-box">
+              
+              <div class="blue-box">Panthéon grec</div>
+              <div class="yellow-box">Panthéon égyptien</div>
+              <div class="green-box">Panthéon nordique</div>
+              <div class="red-box">Panthéon romain</div>
+            </div>
+          </div>
+
+          <!-- Athéna -->
+          <div class="col-3">
+            <div class="Athéna">
+              <img src="images/Frame 1.png" width="315px">
+                <p>Panthéon grec</p>
+                <p class="little">Déesse de la guerre</p>
+            </div>
+          </div>
+
+          <!-- Mars -->
+          <div class="col-3">
+            <div class="Mars">
+              <img src="images/mars.png" width="315px"/>
+                <p>Panthéon romain</p>
+                <p class="little">Dieu de la guerre</p>
+            </div>
+          </div>
+        
+
+        <!-- Ra -->
+        <div class="col-3">
+          <div class="Ra">
+            <img src="images/ra.png" width="315px"/>
+            <p>Panthéon égyptien</p>
+            <p class="little">Dieu créateur</p>
+          </div>
         </div>
 
-        <div class="Mars">
-          <img src="images/mars.png" />
-          <p>Panthéon romain</p>
-          <p class="little">Dieu de la guerre</p>
+        <div class="col-3"></div>
+
+        <!-- Freya -->
+        <div class="col-3">
+          <div class="Freya">
+            <img src="images/freya.png" width="315px"/>
+            <p>Panthéon nordique</p>
+             <p class="little">Déesse de la fertilité</p>
+          </div>
         </div>
 
-        <div class="Ra">
-          <img src="images/ra.png" />
-          <p>Panthéon égyptien</p>
-          <p class="little">Dieu créateur</p>
+        <!-- Loki -->
+        <div class="col-3">
+          <div class="Loki">
+            <img src="images/loki.png" width="315px"/>
+            <p>Panthéon nordique</p>
+            <p class="little">Dieu du chaos</p>
+          </div>
         </div>
 
-        <div class="Freya">
-          <img src="images/freya.png" />
+        <!-- Fortuna -->
+        <div class="col-3">
+          <div class="Fortuna">
+            <img src="images/fortuna.png" width="315px" />
+              <p>Panthéon romain</p>
+              <p class="little">Déesse de la bonne fortune</p>
+          </div>
         </div>
 
-        <div class="Loki">
-          <img src="images/loki.png" />
+        <div class="col-3"></div>
+
+        <!-- Artémis -->
+        <div class="col-3">
+          <div class="Atérmis" >
+            <img src="images/artémis.png" width="315px"/>
+            <p>Panthéon grec</p>
+            <p class="little">Déesse de la chasse</p>
+          </div>
         </div>
 
-        <div class="Fortuna">
-          <img src="images/fortuna.png" />
+        <!-- Anubis -->
+        <div class="col-3">
+          <div class="Anubis">
+            <img src="images/anubis.png" width="315px"/>
+            <p>Panthéon égyptien</p>
+            <p class="little">Dieu funéraire</p>
+          </div>
         </div>
 
-        <div class="Atérmis">
-          <img src="images/artémis.png" />
+        <!-- Zeus -->
+        <div class="col-3">
+          <div class="Zeus">
+            <img src="images/zeus.png" width="315px"/>
+             <p>Panthéon grec</p>
+            <p class="little">Dieu du ciel</p>
+          </div>
         </div>
 
-        <div class="Anubis">
-          <img src="images/anubis.png" />
+        <div class="col-3"></div>
+
+        <!-- Lucifer -->
+        <div class="col-3">
+          <div class="Lucifer">
+            <img src="images/lucifer.png" width="315px"/>
+              <p>Panthéon romain</p>
+            <p class="little">Dieu des étoiles</p>
+          </div>
         </div>
-        <div class="Zeus">
-          <img src="images/zeus.png" />
+
+        <!-- Hel -->
+        <div class="col-3">
+          <div class="Hel"><img src="images/hel.png" width="315px" /> 
+            <p>Panthéon nordique</p>
+            <p class="little">Déesse des enfers</p></div>
         </div>
-        <div class="Lucifer">
-          <img src="images/lucifer.png" />
+
+        <!-- Isis -->
+        <div class="col-3">
+          <div class="Isis"><img src="images/isis.png" width="315px" />
+            <p>Panthéon égyptien</p>
+            <p class="little">Déesse mère</p>
+          </div>
         </div>
-        <div class="Hel"><img src="images/hel.png" /></div>
-        <div class="Isis"><img src="images/isis.png" /></div>
       </div>
     </div>
 
     <div class="footer">
-      <p>Mes favoris</p>
-      <p>Dieu du jour</p>
-      <p>Dieux populaires</p>
-      <p>Politique de confidentialité</p>
+      <div class="menu">
+        <p>Mes favoris</p>
+        <p>Dieu du jour</p>
+        <p>Dieux populaires</p>
+        <p>Politique de confidentialité</p>
+
+        <div class="icones">
+          <img src="images/Vector.png">
+         <img src="images/facebook.png">
+         <img src="images/instagram.png">
+        </div>
+      </div>
+
+      <!-- LINE -->
+      <div class="border"></div>
+      <p class="crédits">Atlas Divin @ 2025. Tous droits réservés</p>
     </div>
 
     <script src="js/main.js" type="module"></script>
