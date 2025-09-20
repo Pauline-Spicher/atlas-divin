@@ -39,16 +39,24 @@
   align-items: center;
   position: relative;
   top: -20px;
-
-  /*.icones {
-    display: flex; /* met les images côte à côte 
-    justify-content: flex-end;  les aligne à droite 
-    gap: 10px;
-    align-items: center; */
+  left: 70px;
 }
 
+.icones {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  left: 623px;
+}
+
+.border {
+  left: 70px;
+}
 .crédits {
   position: relative;
   top: -85px;
   text-align: center;
+  left: 570px;
+  top: -90px;
 }

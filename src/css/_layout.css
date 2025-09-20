@@ -19,6 +19,19 @@ body {
   flex-wrap: wrap;
   gap: 20px;
 }
+.right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.lien {
+  top: 10px;
+}
+.fleche {
+  position: absolute;
+  left: 900px;
+  top: -10px;
+}
 
 .box {
   display: flex;
@@ -134,4 +147,11 @@ body {
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+.pantheons {
+  /*left: 670px;*/
+  float: right;
+  width: 24px;
+  height: auto;
 }
